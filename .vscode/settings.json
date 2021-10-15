@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/andras/Library/sqlite/sqlite-jdbc-3.36.0.3.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Adatok",
+            "database": "${workspaceFolder:plane01}/data.sqlite"
+        }
+    ]
+}
